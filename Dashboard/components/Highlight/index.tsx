@@ -12,7 +12,10 @@ const HighLight = (props: Props) => {
                 <p className="text-gray-700 text-base mt-[-5px]">3 May 2024</p>
             </div>
             <div className="mt-4">
+                {/* Account component */}
                 <Accounts />
+
+                {/* Resued activities component */}
                 <Activities title={"Completed"} />
                 <Activities title={"Scheduled"} />
             </div>

@@ -14,6 +14,7 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
 }) => {
     return (
         <li key={label}>
+            {/* Checking conditionally for dashboard logo */}
             {label === "DashboardLogo" ? (
                 <Link
                     href={href}

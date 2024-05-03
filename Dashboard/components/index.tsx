@@ -8,11 +8,16 @@ type Props = {};
 const Main = (props: Props) => {
     return (
         <div className="text-black bg-blue-50 inset-y-0">
+            {/* SideBar component */}
             <SideBar />
+
             <div className="flex flex-col gap-4 ml-20 md:flex-row md:gap-3">
+                {/* Dashboard component */}
                 <div className="w-auto md:min-w-[70%]">
                     <Dashboard />
                 </div>
+
+                {/* Highlight component */}
                 <div className="md:min-w-[28%] bg-white rounded-md">
                     <HighLight />
                 </div>

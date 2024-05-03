@@ -5,6 +5,7 @@ import { titles } from "@/constant/chartData";
 export default function Card() {
     return (
         <div className="flex flex-initial w-full flex-wrap gap-2 items-center justify-between">
+            {/* Getting title from constant data */}
             {titles.map((title, ind) => (
                 <div
                     key={ind}
@@ -15,6 +16,8 @@ export default function Card() {
                         <p className="text-black font-medium text-base">
                             {title.label}
                         </p>
+
+                        {/* getting chart from chart component */}
                         <Chart />
                         <div className="flex flex-col gap-2 mt-2">
                             <div

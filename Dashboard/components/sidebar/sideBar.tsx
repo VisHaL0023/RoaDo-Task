@@ -6,7 +6,6 @@ import DesktopItem from "./DesktopItem";
 
 const DesktopSidebar = () => {
     const routes = useRoutes();
-    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <>
@@ -33,6 +32,7 @@ const DesktopSidebar = () => {
                         role="list"
                         className="flex flex-col items-center space-y-1"
                     >
+                        {/* Getting all sidebar label and icon using custom hook */}
                         {routes.map((item) => (
                             <DesktopItem
                                 key={item.label}
