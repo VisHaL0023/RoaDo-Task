@@ -12,18 +12,16 @@ const DesktopSidebar = () => {
         <>
             <div
                 className="
-                    hidden 
-                    md:fixed 
-                    md:inset-y-0 
-                    md:left-0 
-                    md:z-40 
-                    md:w-16 
-                    xl:px-6
-                    md:overflow-y-auto 
-                    md:bg-white
-                    md:pb-4
-                    md:flex
-                    md:flex-col
+                    fixed 
+                    inset-y-0 
+                    left-0 
+                    z-40 
+                    w-16 
+                    px-6
+                    bg-white
+                    pb-4
+                    flex
+                    flex-col
                     justify-between
                     rounded-e-xl
                     shadow-md

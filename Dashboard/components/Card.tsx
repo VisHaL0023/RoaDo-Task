@@ -4,7 +4,7 @@ import { titles } from "@/constant/chartData";
 
 export default function Card() {
     return (
-        <div className="flex w-full flex-wrap gap-2 items-center justify-between">
+        <div className="flex flex-initial w-full flex-wrap gap-2 items-center justify-between">
             {titles.map((title, ind) => (
                 <div
                     key={ind}
