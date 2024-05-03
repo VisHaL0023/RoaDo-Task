@@ -7,20 +7,24 @@ type Props = {};
 
 const NavBar = (props: Props) => {
     return (
-        <div className="p-4">
+        <div className="py-4 px-2">
             <div className="flex items-center justify-between">
-                <p className="text-2xl text-black font-sans">Dashboard</p>
-                <div className="bg-white rounded-full p-2 shadow-sm">
-                    <div className="flex items-center justify-around">
-                        <span className="px-2 border-r cursor-pointer">
+                <p className="text-2xl font-semibold text-black font-sans">
+                    Dashboard
+                </p>
+                <div className="bg-white rounded-full px-2 py-3 shadow-sm">
+                    <div className="flex items-center gap-2 justify-around">
+                        <div className="px-2 cursor-pointer">
                             <SearchIcon />
-                        </span>
-                        <span className="px-2 border-r cursor-pointer">
+                        </div>
+                        <div className="border-r border-0 h-5 border-gray-300" />
+                        <div className="px-2 cursor-pointer">
                             <NotificationIcon />
-                        </span>
-                        <span className="cursor-pointer px-3 ml-1">
+                        </div>
+                        <div className="border-r border-0 h-5 border-gray-300" />
+                        <div className="cursor-pointer px-3 ml-1">
                             <ThreeDot />
-                        </span>
+                        </div>
                     </div>
                 </div>
             </div>

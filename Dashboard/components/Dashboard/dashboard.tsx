@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./navBar";
-import Card from "../card";
+import Card from "../Card";
 import QuickAction from "./QuickAction";
 import Alerts from "./Alerts";
 

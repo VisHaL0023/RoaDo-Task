@@ -25,9 +25,10 @@ const DesktopSidebar = () => {
                     md:flex
                     md:flex-col
                     justify-between
-                    rounded-xl
+                    rounded-e-xl
                     shadow-md
-                    overflow-x-hidden"
+                    overflow-x-hidden
+                    overflow-y-hidden"
             >
                 <nav className="mt-4 flex flex-col justify-between">
                     <ul

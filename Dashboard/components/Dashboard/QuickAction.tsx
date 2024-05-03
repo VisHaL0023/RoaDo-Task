@@ -10,9 +10,9 @@ const QuickAction = (props: Props) => {
     return (
         <div className="mt-5">
             <div className="text-black">
-                <p className="font-bold text-xl mb-2">Quick Actions</p>
-                <div className="flex items-center justify-around p-5 bg-white rounded-2xl">
-                    <div className="flex flex-col gap-1 items-center justify-between text-gray-900">
+                <p className="font-bold text-xl mb-3 px-2">Quick Actions</p>
+                <div className="flex items-center justify-around p-5 bg-white rounded-2xl shadow-sm font-medium text-gray-950">
+                    <div className="flex flex-col gap-1 items-center justify-between">
                         <ImportantIcon />
                         <p>Create Indents</p>
                     </div>

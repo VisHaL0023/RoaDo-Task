@@ -10,8 +10,8 @@ const Alerts = (props: Props) => {
     return (
         <div>
             <div className="text-black">
-                <div className="flex items-center justify-between w-full px-3">
-                    <p className="font-bold text-xl mb-2">
+                <div className="flex items-center justify-between w-full px-2">
+                    <p className="font-bold text-xl mb-3 mt-5">
                         High Priority alerts(14)
                     </p>
                     <div className="flex items-center gap-1 text-blue-600 cursor-pointer">
@@ -20,19 +20,21 @@ const Alerts = (props: Props) => {
                     </div>
                 </div>
                 <div className="flex gap-3 items-center justify-between">
-                    <div className="bg-white rounded-xl w-[30rem] p-3">
+                    <div className="bg-white shadow-sm rounded-xl w-[30rem] px-3 py-5">
                         <div className="flex flex-col">
                             <div className="flex items-center gap-2">
                                 <UserBGIcon />
                                 <div>
-                                    <p>Driver Raised Concern</p>
+                                    <p className="font-semibold">
+                                        Driver Raised Concern
+                                    </p>
                                     <p className="text-xs">
                                         Load No: 1234, Bill To: RoaDo demo
                                         Banglore
                                     </p>
                                 </div>
                             </div>
-                            <p className="text-sm mt-2">
+                            <p className="text-base mt-2">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Consectetur nihil aliquam amet
                                 culpa numquam accusamus ratione, possimus odio{" "}
@@ -50,19 +52,21 @@ const Alerts = (props: Props) => {
                             </Button>
                         </div>
                     </div>
-                    <div className="bg-white rounded-xl w-[30rem] p-3">
+                    <div className="bg-white shadow-sm rounded-xl w-[30rem] px-3 py-5">
                         <div className="flex flex-col">
                             <div className="flex items-center gap-2">
                                 <TempIcon />
                                 <div>
-                                    <p>Reefer Temp. out of range</p>
+                                    <p className="font-semibold">
+                                        Reefer Temp. out of range
+                                    </p>
                                     <p className="text-xs">
                                         Load No: 1234, Bill To: RoaDo demo
                                         Banglore
                                     </p>
                                 </div>
                             </div>
-                            <p className="text-sm mt-2">
+                            <p className="text-base mt-2">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Consectetur nihil aliquam amet
                                 culpa numquam accusamus ratione, possimus odio{" "}
