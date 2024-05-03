@@ -10,6 +10,7 @@ const nextConfig = {
 
         return config;
     },
+    transpilePackages: ["@mui/x-charts"],
 };
 
 export default nextConfig;

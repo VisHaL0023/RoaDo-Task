@@ -20,12 +20,14 @@ const DesktopSidebar = () => {
                     md:w-16 
                     xl:px-6
                     md:overflow-y-auto 
-                    md:bg-white 
-                    md:border-r-[1px]
+                    md:bg-white
                     md:pb-4
                     md:flex
                     md:flex-col
-                    justify-between"
+                    justify-between
+                    rounded-xl
+                    shadow-md
+                    overflow-x-hidden"
             >
                 <nav className="mt-4 flex flex-col justify-between">
                     <ul
