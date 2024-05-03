@@ -14,7 +14,7 @@ const StyledText = styled("text")(({ theme }) => ({
     fill: theme.palette.text.primary,
     textAnchor: "middle",
     dominantBaseline: "central",
-    fontSize: 20,
+    fontSize: 26,
 }));
 
 function PieCenterLabel({ children }: { children: React.ReactNode }) {
@@ -45,7 +45,7 @@ const Chart = (props: Props) => {
                     "rgb(79,210,181)",
                 ]}
             >
-                <PieCenterLabel>Center label</PieCenterLabel>
+                <PieCenterLabel>Total</PieCenterLabel>
             </PieChart>
         </div>
     );

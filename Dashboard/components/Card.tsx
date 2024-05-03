@@ -8,7 +8,7 @@ export default function Card() {
             {titles.map((title, ind) => (
                 <div
                     key={ind}
-                    className="p-4 w-[14rem] h-[20rem] flex flex-col gap-2 bg-white rounded-3xl text-black
+                    className="p-4 w-[15rem] h-[20rem] flex flex-col gap-2 bg-white rounded-3xl text-black
                             shadow-sm"
                 >
                     <div>

@@ -7,13 +7,13 @@ type Props = {};
 
 const Main = (props: Props) => {
     return (
-        <div className="min-h-screen bg-blue-50 text-black">
+        <div className="text-black bg-blue-50 inset-y-0">
             <SideBar />
-            <div className="ml-20 flex gap-2">
-                <div className="min-w-[100%] md:min-w-[70%]">
+            <div className="flex flex-col gap-4 ml-20 md:flex-row md:gap-3">
+                <div className="w-auto md:min-w-[70%]">
                     <Dashboard />
                 </div>
-                <div className="hidden md:block min-w-[30%] bg-white rounded-md">
+                <div className="md:min-w-[28%] bg-white rounded-md">
                     <HighLight />
                 </div>
             </div>
